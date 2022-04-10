@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -20,7 +20,19 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - squirrel-core
+    - datasets
+    - squirrel-core >=0.12.1
+    - numpy
+    - pillow
+    - pytorch
+    - torchvision
+    - pyspark >=3.2.0
+    - hydra-core >=1.1.0
+    - hub
+    - docutils
+    - fire
+    - scipy
+
 
 test:
   imports:
