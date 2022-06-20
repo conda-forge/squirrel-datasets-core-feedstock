@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/squirrel_datasets_core-{{ version }}.tar.gz
-  sha256: 6889955eca43984940b7049c691adebc8e17bde302fb08b5b253530d33fee58f
+  sha256: 8f62d9152bf17e6380901cfdf68a53ce3b1954ea3583043a2c78451f0986b488
 
 build:
   noarch: python
@@ -28,7 +28,6 @@ requirements:
     - pytorch
     - torchvision
     - pyspark >=3.2.0
-    - hydra-core >=1.1.0
     - hub
     - docutils
     - fire
