@@ -1,5 +1,5 @@
 {% set name = "squirrel-datasets-core" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/squirrel_datasets_core-{{ version }}.tar.gz
-  sha256: 8f62d9152bf17e6380901cfdf68a53ce3b1954ea3583043a2c78451f0986b488
+  sha256: 89375ce8d543ede13c33a72f16477da996b0c82698c6009511d21c31a777d198
 
 build:
   noarch: python
