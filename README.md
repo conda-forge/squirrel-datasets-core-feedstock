@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@AlirezaSohofi](https://github.com/AlirezaSohofi/)
+* [@winfried-ripken](https://github.com/winfried-ripken)
 * [@ThomasWollmann](https://github.com/ThomasWollmann/)
 
