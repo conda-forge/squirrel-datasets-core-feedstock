@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - datasets
-    - squirrel-core >=0.12.1
+    - squirrel-core >=0.19.0
     - dill >=0.3.5.1
     - numpy
     - pillow
@@ -30,8 +30,8 @@ requirements:
     - torchvision
     - pyspark >=3.2.0
     - hub
-    - docutils
-    - fire
+    - docutils <0.18.0
+    - fire >=0.5.0
     - scipy
 
 test:
