@@ -16,23 +16,19 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.8,<4.0
+    - poetry-core
     - pip
-    - poetry
   run:
-    - python >=3.8
-    - datasets
-    - squirrel-core >=0.19.0
-    - dill >=0.3.5.1
-    - numpy
-    - pillow
-    - pytorch
-    - torchvision
-    - pyspark >=3.2.0
-    - hub
-    - docutils <0.18.0
-    - fire >=0.5.0
-    - scipy
+    - python >=3.8,<4.0
+    - docutils >=0.17.1,<1.0
+    - fire >=0.4.0,<1.0
+    - pillow >=9.4.0,<10.0
+    - scipy >=1.9.3,<2.0
+    - squirrel-core >=0.19.0,<1.0
+    - datasets >=2.9.0,<3.0
+    - pyspark >=3.2.2,<4.0
+    - torchvision >=0.14.1,<1.0
 
 test:
   imports:
