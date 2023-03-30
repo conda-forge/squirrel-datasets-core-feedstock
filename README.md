@@ -1,11 +1,11 @@
-About squirrel-datasets-core
-============================
+About squirrel-datasets-core-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/squirrel-datasets-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/squirrel-datasets-core/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/squirrel-datasets-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Squirrel public datasets collection.
 
@@ -145,5 +145,7 @@ Feedstock Maintainers
 
 * [@AlirezaSohofi](https://github.com/AlirezaSohofi/)
 * [@ThomasWollmann](https://github.com/ThomasWollmann/)
+* [@hosseinkarjoo](https://github.com/hosseinkarjoo/)
+* [@maik-schmidt](https://github.com/maik-schmidt/)
 * [@winfried-ripken](https://github.com/winfried-ripken/)
 

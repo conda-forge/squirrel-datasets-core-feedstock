@@ -1,5 +1,5 @@
 {% set name = "squirrel-datasets-core" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,31 +7,28 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/squirrel_datasets_core-{{ version }}.tar.gz
-  sha256: 9ee20ddff188327b7bfef6d8890a3b925d0f0f6f05c536b1fac2a16794a881f6
+  sha256: 7d22c05101bd40a0e7d8c668dc31d3590441349321ba0aa77a15de8fab534585
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.8,<4.0
+    - poetry-core
     - pip
   run:
-    - python >=3.8
-    - datasets
-    - squirrel-core >=0.12.1
-    - dill >=0.3.5.1
-    - numpy
-    - pillow
-    - pytorch
-    - torchvision
-    - pyspark >=3.2.0
-    - hub
-    - docutils
-    - fire
-    - scipy
+    - python >=3.8,<4.0
+    - docutils >=0.17.1,<0.18
+    - fire >=0.4.0,<0.5
+    - pillow >=9.4.0,<10.0
+    - scipy >=1.9.3,<2.0
+    - squirrel-core >=0.19.0,<1.0
+    - datasets >=2.9.0,<3.0
+    - pyspark >=3.2.2,<4.0
+    - torchvision >=0.14.1,<0.15
 
 test:
   imports:
